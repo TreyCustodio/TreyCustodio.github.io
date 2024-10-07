@@ -16,9 +16,11 @@
 /* Titles for each section */
 .section {
     font-family: Garamond;
-    font-size: x-large;
+    font-size: large;
     color: white;
 }
+
+
 
 /* Text specifications */
 .description {
