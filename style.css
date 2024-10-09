@@ -1,3 +1,8 @@
+
+
+
+
+
 /* Specifications for the YungTreyGames logo */
 .logo {
     display: block;
@@ -16,8 +21,9 @@
 /* Titles for each section */
 .section {
     font-family: Garamond;
-    font-size: large;
-    color: white;
+    font-size: xx-large;
+    color: black;
+    margin: 4px 0 0 4px;
 }
 
 
@@ -38,7 +44,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-}   
+}
 
 
 /* Link to itch.io page */
@@ -54,4 +60,11 @@
    
 }
 
+/* Images that take you to different pages */
+.image_link {
+    
+    max-width: 100%;
+    /* width: 200px;
+    height: 200px; */
 
+}
