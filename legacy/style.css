@@ -1,8 +1,3 @@
-
-
-
-
-
 /* Specifications for the YungTreyGames logo */
 .logo {
     display: block;
@@ -64,8 +59,34 @@
 /* Images that take you to different pages */
 .image_link {
     
-    max-width: 100%;
-    /* width: 200px;
-    height: 200px; */
 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+}
+
+
+.image_link a {
+margin-right: 100px; /* Adds space between the images */
+}
+
+.image_link img {
+width: 120px; /* Set the desired width */
+height: 120px; /* Set the desired height */
+object-fit: cover; /* Maintains aspect ratio */
+border: 2px solid #000000;
+transition: border 0.3s ease;
+}
+
+.image_link img:hover {
+    border: 2px solid transparent; /* Make the border transparent on hover */
+}
+
+.center-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh; /* This makes the container full height of the viewport */
 }
