@@ -1,6 +1,8 @@
-Thanks for downloading this template!
+#  (WIP) Portfolio Website
 
-Template Name: Personal
+##  Made using an HTML / CSS template from BootstrapMade.com
+
+
 Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
