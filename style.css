@@ -3,10 +3,24 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 644px;
-    height: 120px;
-    padding-bottom: 10px;
-    border-bottom: 4px solid black
+    width: 400px;
+    height: 80px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+
+/*  -----------------------------   */
+
+/* Intro Section */
+.intro {
+    border-top: 4px solid black;
+    padding-top: 10px;
+    background-color: #A5F3E8;
+    
+
+
 }
 
 /* My Name */
@@ -27,16 +41,19 @@
     border-bottom: 4px solid black;
 }
 
+
+/*  -----------------------------   */
+
 /* Social Section Name */
 .socials{
-margin-top: 20px;
+padding-top: 20px;
+background-color: lightblue;
 font-weight: bold;
 text-align: center;
 font-family: 'Garamond';
-font-size: 36px;
+font-size: 24px;
 border-bottom: 4px solid black;
 padding-bottom: 20px;
-margin-bottom: 25px;
 
 }
 
@@ -49,42 +66,6 @@ align-items: center;
 margin-top: 50px;
 }
 
-
-
-/* Beat Section */
-.beat_container {
-    border-bottom: 4px solid black;
-}
-
-.beat_container_title{
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Garamond';
-    font-size: 36px
-}
-
-.beat_container_description{
-    text-align: center;
-    font-family: 'Garamond';
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.beat_title{
-    text-align: center;
-    display: block;
-    font-size: 14pt;
-    font-family: 'Times New Roman';
-}
-
-.beat{
-    text-align: center;
-    display: block;
-    margin-bottom: 40px;
-
-}
-
-
 /* Images that take you to different pages */
 .image_link {
     
@@ -95,7 +76,6 @@ margin-top: 50px;
     
 
 }
-
 
 .image_link a {
 margin-right: 100px; /* Adds space between the images */
@@ -113,17 +93,82 @@ transition: border 0.3s ease;
     border: 2px solid transparent; /* Make the border transparent on hover */
 }
 
+
+/*  -----------------------------   */
+
+/* Beat Section */
+.beat_container {
+    padding-top: 20px;
+    background-color: #D2DEEB;
+    padding-bottom: 20px;
+    border-bottom: 4px solid black;
+}
+
+.beat_container_title{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 24px
+}
+
+.beat_container_description{
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Reference to Alucard in beat section */
 .alucard {
     font-style: italic;
     font-size: 12pt
 
 }
 
+.beat_title {
+    text-align: center;
+    display: block;
+    font-size: 14pt;
+    font-family: 'Times New Roman';
+}
+
+.beat_section {
+    display: block;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 18pt;
+    font-family: 'Times New Roman';
+    font-style: italic;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black
+}
+
+.beat_section_desc {
+    text-align: left;
+    display: block;
+    font-size: 12pt;
+    font-family: 'Times New Roman';
+    font-style: normal;
+}
+
+.beat{
+    text-align: center;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 20px
+
+}
 
 
 
 /* Specifications for a game section title */
-.game_container_tittle {
+.game_container {
+    padding-top: 20px;
+    background-color: #D2DEFF;
+}
+
+.game_container_title {
     font-weight: bold;
     text-align: center;
     font-family: 'Garamond';
@@ -134,7 +179,7 @@ transition: border 0.3s ease;
     font-weight: bold;
     text-align: center;
     font-family: 'Garamond';
-    font-size: 36px
+    font-size: 24px
 }
 
 .game_container_description{
