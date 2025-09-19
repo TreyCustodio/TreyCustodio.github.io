@@ -68,13 +68,9 @@ margin-top: 50px;
 
 /* Images that take you to different pages */
 .image_link {
-    
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    
-
 }
 
 .image_link a {
@@ -84,9 +80,8 @@ margin-right: 100px; /* Adds space between the images */
 .image_link img {
 width: 120px; /* Set the desired width */
 height: 120px; /* Set the desired height */
-object-fit: cover; /* Maintains aspect ratio */
-border: 2px solid #000000;
-transition: border 0.3s ease;
+4border: 2px solid #000000;
+transition: border 0.2s;
 }
 
 .image_link img:hover {
@@ -122,7 +117,6 @@ transition: border 0.3s ease;
 .alucard {
     font-style: italic;
     font-size: 12pt
-
 }
 
 .beat_title {
