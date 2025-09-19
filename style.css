@@ -13,14 +13,17 @@
 
 /*  -----------------------------   */
 
+/* Formatting for each section  */
+.section {
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
 /* Intro Section */
 .intro {
     border-top: 4px solid black;
     padding-top: 10px;
     background-color: #A5F3E8;
-    
-
-
 }
 
 /* My Name */
@@ -80,7 +83,7 @@ margin-right: 100px; /* Adds space between the images */
 .image_link img {
 width: 120px; /* Set the desired width */
 height: 120px; /* Set the desired height */
-4border: 2px solid #000000;
+border: 2px solid #000000;
 transition: border 0.2s;
 }
 
