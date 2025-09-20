@@ -15,13 +15,16 @@
 
 /* Formatting for each section  */
 .section {
-    border-left: 4px solid black;
-    border-right: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    /* border-bottom: 2px solid black; */
+
+
 }
 
 /* Intro Section */
 .intro {
-    border-top: 4px solid black;
     padding-top: 10px;
     background-color: #A5F3E8;
 }
@@ -41,7 +44,6 @@
     font-family: 'Garamond';
     font-size: 18px;
     padding-bottom: 20px;
-    border-bottom: 4px solid black;
 }
 
 
@@ -55,7 +57,6 @@ font-weight: bold;
 text-align: center;
 font-family: 'Garamond';
 font-size: 24px;
-border-bottom: 4px solid black;
 padding-bottom: 20px;
 
 }
@@ -77,7 +78,9 @@ margin-top: 50px;
 }
 
 .image_link a {
-margin-right: 100px; /* Adds space between the images */
+margin-left: 50px;
+margin-right: 50px;
+ /* Adds space between the images */
 }
 
 .image_link img {
@@ -99,7 +102,6 @@ transition: border 0.2s;
     padding-top: 20px;
     background-color: #D2DEEB;
     padding-bottom: 20px;
-    border-bottom: 4px solid black;
 }
 
 .beat_container_title{
@@ -136,9 +138,7 @@ transition: border 0.2s;
     font-size: 18pt;
     font-family: 'Times New Roman';
     font-style: italic;
-
-    border-top: 2px solid black;
-    border-bottom: 2px solid black
+    border-top: 1px dashed black;
 }
 
 .beat_section_desc {
