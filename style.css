@@ -37,7 +37,8 @@
 .shrek {
     width: 128px;
     height: 128px;
-    border: 2px ridge black
+    border: 2px ridge black;
+    align-self: center;
 }
 
 /* My Name */
@@ -75,18 +76,27 @@
 /* Social Icons Section*/
 .social_icons {
     margin-top: 50px;
-    justify-content: center;
-    display: flex;
+    /* justify-content: center; */
+    /* display: flex; */
+
 }
 
 /* Images that take you to different pages */
+.image_link text{
+    font-size: 12pt;
+    padding-right: 20px;
+    
+}
+
 .image_link img {
     width: 120px;
     height: 120px;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
     border: 4px solid #000000;
     transition: border 0.5s;
+    display: inline;
+
 }
 
 .image_link img:hover {
@@ -106,6 +116,15 @@
 .beat_container {
     padding-top: 20px;
     background-color: #D2DEEB;
+}
+
+#animation {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.beat_link:hover {
+    color: purple
 }
 
 .beat_container_title{
@@ -128,12 +147,20 @@
     font-size: 12pt
 }
 
+.alucard:hover {
+    font-style: italic;
+    font-size: 12pt;
+    color: red
+}
+
 .beat_title {
     text-align: center;
     display: block;
     font-size: 14pt;
     font-family: 'Times New Roman';
 }
+
+
 
 .beat_section {
     display: block;

@@ -33,7 +33,10 @@
          <div class = "intro">
             <!--  Picture  -->
             <div class = "profile_pic">
-               <img src="images/shrek.jpg" class="shrek">
+               <!-- <img id="animation" src="sprites/shrek_0.png" alt="Animation Frame" class="shrek"/> -->
+               <img id="frame1" src="sprites/shrek_idle/shrek_0.jpg" alt="Frame 1" class="shrek" style= "opacity: 1;">
+               <img id="frame2" src="sprites/shrek_idle/shrek_1.jpg" alt="Frame 2" class="shrek" style="opacity: 0;">
+               <script src="script.js"></script>
             </div>
 
             <!--  Name   -->
@@ -59,22 +62,41 @@
             <div class = "social_icons">
                <!--  Github   -->
                <div class = "image_link">
-                  <a href = https://github.com/TreyCustodio>
+                  <text>
+                  Check out my projects on Github
+                  </text>
+                  <a href = https://github.com/TreyCustodio target="_blank">
                      <img src = "images/github.png">
                   </a>
                </div>
                
                <!--  LinkedIn -->
                <div class = "image_link">
-                  <a href = https://www.linkedin.com/in/trey-custodio-8454862b1>
+                  <text>
+                  Connect with me on LinkedIn
+                  </text>
+                  <a href = https://www.linkedin.com/in/trey-custodio-8454862b1 target="_blank">
                      <img src = "images/linkedin.png">
                   </a>
                </div>
                
                <!--  Instagram   -->
                <div class = "image_link">
-                  <a href = https://www.instagram.com/yung_trey_games/>
+                  <text>
+                  Follow me on Instagram
+                  </text>
+                  <a href = https://www.instagram.com/yung_trey_games target="_blank">
                      <img src = "images/insta.png">
+                  </a>
+               </div>
+
+               <!--  Itch   -->
+               <div class = "image_link">
+                  <text>
+                  Play my games on itch.io
+                  </text>
+                  <a href = https://yungtreygames.itch.io/ target="_blank">
+                     <img src = "images/itch.png">
                   </a>
                </div>
             </div>
@@ -97,13 +119,20 @@
             <div class="beat_container_description">
             I produce music and sound effects using an audio production tool that I developed myself.
             <br>This tool allows you to sample audio, compose scores, and synthesize new sounds!
+            
             <br><br>You can view my full audio synthesis project on github here:
-            <a href = https://github.com/TreyCustodio/Audio-Synthesizer>
-                  Trizzy's Audio-Synthesizer
-            </a>
-            <br>I also use Bandlab's studio interface for post-production:
-            <a href = https://github.com/TreyCustodio/Audio-Synthesizer>
-                  Check out Bandlab
+               <a href = https://github.com/TreyCustodio/Audio-Synthesizer target="_blank">
+                  <div class = "beat_link">
+                     Trizzy's Audio-Synthesizer
+                  </div>
+               </a>
+
+            <br>I also use Bandlab's user-friendly studio interface for post-production mixing:
+            <a href = https://github.com/TreyCustodio/Audio-Synthesizer target="_blank">
+               <div class = "beat_link">
+                     Check out Bandlab
+               </div>
+               
             </a>
             <p class = "alucard">"But you probably won't listen to me anyway, <b>will you?</b>" ~ (Alucard, Castlevania Symphony of the Night, 1997)</p>
             </div>
@@ -260,6 +289,9 @@
 
     <!--Footer-->
     <footer></footer>
+
+    <!-- Incorporate JavaScript  -->
+   <!-- <script src="script.js"></script> -->
 
    </body>
 </html>
