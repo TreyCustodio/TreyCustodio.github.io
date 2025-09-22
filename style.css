@@ -18,15 +18,26 @@
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
-    /* border-bottom: 2px solid black; */
-
-
+    text-shadow: 2px 2px 4px #888888;
 }
+
 
 /* Intro Section */
 .intro {
     padding-top: 10px;
     background-color: #A5F3E8;
+}
+
+/* Profile Picture */
+.profile_pic {
+    justify-content: center;
+    display: flex;
+}
+
+.shrek {
+    width: 128px;
+    height: 128px;
+    border: 2px ridge black
 }
 
 /* My Name */
@@ -49,52 +60,44 @@
 
 /*  -----------------------------   */
 
-/* Social Section Name */
+/* Social Section */
 .socials{
-padding-top: 20px;
-background-color: lightblue;
-font-weight: bold;
-text-align: center;
-font-family: 'Garamond';
-font-size: 24px;
-padding-bottom: 20px;
-
+    padding-top: 20px;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 24px;
+    padding-bottom: 20px;
 }
 
 
-/* Social Icons */
+/* Social Icons Section*/
 .social_icons {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
 }
 
 /* Images that take you to different pages */
-.image_link {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.image_link a {
-margin-left: 50px;
-margin-right: 50px;
- /* Adds space between the images */
-}
-
 .image_link img {
-width: 120px; /* Set the desired width */
-height: 120px; /* Set the desired height */
-border: 4px solid #000000;
-transition: border 0.5s;
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 4px solid #000000;
+    transition: border 0.5s;
 }
 
 .image_link img:hover {
     border: 12px solid transparent; /* Make the border transparent on hover */
-    transition: border 0.3s
 
 }
+
+.image_link img:default {
+    border: 4px solid black;
+}
+
 
 
 /*  -----------------------------   */
@@ -103,7 +106,6 @@ transition: border 0.5s;
 .beat_container {
     padding-top: 20px;
     background-color: #D2DEEB;
-    padding-bottom: 20px;
 }
 
 .beat_container_title{
@@ -137,6 +139,7 @@ transition: border 0.5s;
     display: block;
     padding-top: 20px;
     padding-left: 20px;
+    padding-bottom: 10px;
     font-size: 18pt;
     font-family: 'Times New Roman';
     font-style: italic;
