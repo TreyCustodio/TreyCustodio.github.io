@@ -14,7 +14,7 @@
 
 
    <!--Visible Text-->
-   <body style="background-color: #D2DEFF" >
+   <body style="background-color: rgb(210, 222, 255)" >
 
       
       <!--Header-->
@@ -22,6 +22,19 @@
          <img src = "images/logo.png" class = "logo" >
       </header>
 
+
+      <!-- Navigation Window -->
+      <!-- <div id = "nav" class = "navigation">
+         <text>
+            Page Navigation
+         </text>
+         <br>
+         <button id="to_socials">Social Links</button>
+         <br>
+         <button id="to_beat">Beats and Instrumentals</button>
+         <br>
+
+      </div> -->
 
       <!--Main-->
       <main>
@@ -31,10 +44,8 @@
             <div class = "intro">
                <!--  Picture  -->
                <div class = "profile_pic">
-                  <img id="animation" src="sprites/shrek_0.png" alt="Animation Frame" class="shrek"/>
-                  <!-- <img id="frame1" src="sprites/shrek_idle/shrek_0.jpg" alt="Frame 1" class="shrek" style= "opacity: 1;"> -->
-                  <!-- <img id="frame2" src="sprites/shrek_idle/shrek_1.jpg" alt="Frame 2" class="shrek" style="opacity: 0;"> -->
-                  <script src="script.js"></script>
+                  <!-- <img id="animation" src="sprites/shrek_0.png" alt="Animation Frame" class="shrek"/> -->
+                  
                </div>
 
                <!--  Name   -->
@@ -44,26 +55,39 @@
 
                <!--  Bio   -->
                <div class = "bio">
-                  Computer Science Student, Game Developer, Composer, Wrestler
+                  <p>
+                  Computer Science Student, Game Developer, Beat Producer, Wrestler
+                  </p>
+                  <text class = "page_links" id="to_socials">Social Links</text> &ensp;
+                  <text class = "page_links" id="to_beat">Instrumentals</text>
+                  </div>
+
                </div>
+
+               
                
                <!--  To-Do List  -->
-               <div class = "toDo">
+               <!-- <div class = "toDo">
                (1) Navigation Menu
                <br>Add an interactive navigation menu that appears on the left side of the screen and follows the visitor as they scroll on the page.
                <br>Clicking on any of the section names in this menu puts that section into focus without the user having to scroll.
                <br><br>
                (2) Contents Page below bio
-            </div>
+               </div> -->
+
             </div>
          </div>
          
 
+         
 
          <!--  Socials  -->
-         <div class = "section">
+         <div class = "section" id = "socials_page">
+            
             <div class = "socials">
-            Social Links
+               <div class = "social_name">
+                  Social Links
+               </div>
                
                <!--  Icons with Links-->
                <div class = "social_icons">
@@ -77,6 +101,7 @@
                         <img src = "images/github.png">
                      </a>
                   </div>
+                  <br>
                   
                   <!--  LinkedIn -->
                   <div class = "image_link">
@@ -89,6 +114,8 @@
                         <img src = "images/linkedin.png">
                      </a>
                   </div>
+                  <br>
+                  <br>
                   
                   <!--  Instagram   -->
                   <div class = "image_link">
@@ -101,6 +128,7 @@
                         <img src = "images/insta.png">
                      </a>
                   </div>
+                  <br>
 
                   <!--  Itch   -->
                   <div class = "image_link">
@@ -121,8 +149,8 @@
 
          
          <!--  Beats   -->
-         <div class = "section">
-            <div class="beat_container">
+         <div id="beat_page" class = "section">
+            <div id="beat_container" class="beat_container">
                <!--  Section Title  -->
                <div class="beat_container_title">
                   Beats and Instrumentals
@@ -149,129 +177,127 @@
                <p class = "alucard" draggable="true">"But you probably won't listen to me anyway, <b>will you?</b>" ~ (Alucard, Castlevania Symphony of the Night, 1997)</p>
                </div>
                   
-                  <!--  Miscellaneous Beats  -->
+                  <!--  AMTR  -->
                   <div class = "beat_section">
-                     Rap and Hip Hop Beats
+                     Original Soudtrack for "Another March Through Reverie"
                      <div class = "beat_section_desc">
-                        Bass, hats, snares, and samples
-                     </div>
-
-                     <!--  (1) No Glory  -->
-                     <div class = "beat">
-                        <div class = "beat_title">
-                           No Glory
-                        </div>
-                        <audio controls>
-                           <source src="beats/No_Glory.wav" type="audio/wav">
-                           Your browser does not support the audio element.
-                        </audio>
-                     </div>
-
-                     <!--  (2) Death by Default   -->
-                     <div class = "beat">
-                        <div class = "beat_title">
-                           Death by Default
-                        </div>
-                        <audio controls>
-                           <source src="beats/08_Death_by_Default.mp3" type="audio/mp3">
-                           Your browser does not support the audio element.
-                        </audio>
-                     </div>
-
-                  </div>
-
-                  
-               
-                  <!--  Tangible Light  -->
-                  <div class = "beat_section">
-                     Tangible Light - Majestus Original Soundtrack
-
-                     <div class = "beat_section_desc">
-                        Original score for my first story-driven action-adventure game
-                     </div>
-
-                     <!--  (1)  -->
-                     <div class = "beat">
-                        <div class = "beat_title">
-                           01 - Title
-                        </div>
-                        <audio controls>
-                           <source src="beats/TL/01_Title.wav" type="audio/wav">
-                           Your browser does not support the audio element.
-                        </audio>
-                     </div>
-
-                     <!--  (2)  -->
-                     <div class = "beat">
-                        <div class = "beat_title">
-                           02 - Journaling
-                        </div>
-                        <audio controls>
-                           <source src="beats/TL/02_Journaling.wav" type="audio/wav">
-                           Your browser does not support the audio element.
-                        </audio>
+                        <p>
+                        A story-driven sci-fi game inspired by Metroid.
+                        The soundtrack emphasizes percussion and bass. As the player moves faster, the drums get louder.
+                        <br>Note that most of these tracks are still works in progresses.
+                        <b>02</b>, <b>05</b>, and <b>07</b> are the most polished tracks so far.
+                        </p>
                      </div>
                      
-                     <!--  (3)  -->
-                     <div class = "beat">
+                     <div class = "audio_container">
+
+                     <!--  (1)  -->
+                     <!-- <div class = "beat">
                         <div class = "beat_title">
-                           03 - First Up
+                           <text style="color: white;">
+                           01 - AMTR
+                           </text>
                         </div>
                         <audio controls>
-                           <source src="beats/TL/03_First_Up.wav" type="audio/wav">
+                           <source src="beats/AMTR/01_full.wav" type="audio/wav">
                            Your browser does not support the audio element.
                         </audio>
+                     </div> -->
+
+                     <!--  (2) -->
+                     <div class = "beat">
+                        <div class = "beat_title">
+                           <text style="color: rgb(216, 112, 147);">
+                              02 - Welcome to Earth
+                           </text>
+                        </div>
+
+                        <audio id="02" controls loop>
+                           <source src="beats/AMTR/02_full.wav" type="audio/wav">
+                           Your browser does not support the audio element.
+                        </audio>
+
+                        <text style = "font-size: 11pt; text-shadow: none;">
+                           <br>Ominous, bass-intense track that plays during the intro cutscene
+                        </text>
                      </div>
 
-                     <!--  (5)  -->
                      <div class = "beat">
                         <div class = "beat_title">
-                           05 - Page One
+                           <text style="color:greenyellow">
+                           04 - Middleground
+
+                           </text>
                         </div>
-                        <audio controls>
-                           <source src="beats/TL/05_Page_One.wav" type="audio/wav">
+                        <audio controls id = "04">
+                           <source src="beats/AMTR/04_full.wav" type="audio/wav">
                            Your browser does not support the audio element.
                         </audio>
+                        <text style = "font-size: 11pt; text-shadow: none;">
+                           <br>Upbeat, electric, and energy-pumping background music that plays during the first area of the game
+                        </text>
                      </div>
 
-                     <!--  (6)  -->
+
                      <div class = "beat">
                         <div class = "beat_title">
-                           06 - Trap the Opp
+                           <text style="color:rgb(0, 204, 2)">
+                           05 - Biotech Ruins
+                           </text>
                         </div>
-                        <audio controls>
-                           <source src="beats/TL/06_Trap_The_Opp.wav" type="audio/wav">
+                        <audio controls loop id = "05">
+                           <source src="beats/AMTR/05_full.wav" type="audio/wav">
                            Your browser does not support the audio element.
                         </audio>
+                        <text style = "font-size: 11pt; text-shadow: none;">
+                           <br>Foreboding, atmospheric track heard while exploring the ruins of an ancient bitoech laboratory
+                        </text>
+                     </div>
+                     <div style = "break-before: column;"></div>
+                     <br><br>
+
+                     <div class = "beat">
+                        <div class = "beat_title">
+                           <text style = "color: rgb(128, 206, 255)">
+                           07 - Frozen Core
+                           </text>
+                           
+                        </div>
+
+                        <audio controls loop id = "07">
+                           <source src="beats/AMTR/07_full.wav" type="audio/wav">
+                           Your browser does not support the audio element.
+                        </audio>
+                        <text style = "font-size: 11pt; text-shadow: none;">
+                           <br>Mysterious track that highlights the frozen remains of the Earth's core
+                        </text>
+                     </div>
+
+                     <div class = "beat">
+                        <div class = "beat_title">
+                           <text style = "color: rgb(215, 0, 0)">
+                           12 - Scripted Encounter<br>(Fake Plants don't Grow)
+                           </text>
+                        </div>
+
+                        <audio controls loop id = "12">
+                           <source src="beats/AMTR/12_full.wav" type="audio/wav">
+                           Your browser does not support the audio element.
+                        </audio>
+                        <text style = "font-size: 11pt; text-shadow: none;">
+                           <br>Boss theme inspired by "drill" rap breats
+                        </text>
+                        <br>
+                     </div>
+
+
                      </div>
 
                   </div>
-                  
-                  
-                  <!--  Retro / 8-bit Beats  -->
-                  <div class = "beat_section">
-                     Retro / 8-bit Beats
-                     <div class = "beat_section_desc">
-                        Using my computer as an instrument
-                     </div>
-                  </div>
 
-                  <!--  WIP Section  -->
-                  <div class = "beat_section">
-                     Works in Progress
-                     <div class = "beat_section_desc">
-                        These aren't finsihed... But feel free to harm your ears!
-                     </div>
-                  </div>
-            </div>
-                  
-            </div>
-         </div>
-         
-         
 
          <!--  Video Games   -->
-         <div class="section">
+         <!-- <div class="section">
             <div class="game_container">
                <div class="game_container_title">
                   Video Games
@@ -296,11 +322,21 @@
                   War and Keys
                </div>
             </div>
-         </div>
+         </div> -->
+
+         <script src="script.js"></script>
+
       </main>
 
       <!--Footer-->
-      <footer></footer>
+      <text style="display: flex; justify-content: center; font-style: italic; font-size: 10pt">
+         <p>
+         This webpage was programmed in HTML, CSS, and JavaScript by Trey Custodio
+         </p>
+      </text>
+      <footer>
+         
+      </footer>
 
 
    </body>

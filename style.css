@@ -21,6 +21,7 @@
     border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
+    border-bottom: 2px solid black;
     text-shadow: 2px 2px 4px #888888;
 }
 
@@ -58,7 +59,7 @@
     text-align: center;
     font-family: 'Garamond';
     font-size: 18px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
 }
 
 .toDo {
@@ -77,8 +78,28 @@
     font-family: 'Garamond';
     font-size: 24px;
     padding-bottom: 20px;
+
+    column-count: 2;
+    column-gap: 6px;
 }
 
+.page_links {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.page_links:hover {
+    color:red;
+}
+
+.social_name {
+    column-span: all;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Garamond';
+    font-size: 24px;
+}
 
 /* Social Icons Section*/
 .social_icons {
@@ -119,10 +140,40 @@
 
 /*  -----------------------------   */
 
+/* Navigation */
+.navigation {
+    background-color: white;
+    position: fixed;
+    border: 2px solid black;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 196px;
+}
+
+.navigation button {
+    display: flex; 
+    align-content: center;
+    visibility: visible;
+    
+}
+
+.navigation button:hover {
+    color: red;
+}
+
+.navigation text {
+    display: flex;
+    left: 50%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+
+
 /* Beat Section */
 .beat_container {
     padding-top: 20px;
-    background-color: #D2DEEB;
 }
 
 
@@ -160,8 +211,11 @@
 .beat_title {
     text-align: center;
     display: block;
-    font-size: 14pt;
+    font-size: 16pt;
     font-family: 'Times New Roman';
+    color: white;
+    text-shadow: -1px -1px black, 1px -1px black, 1px 1px black, -1px 1px black;
+    padding-bottom: 4px
 }
 
 
@@ -176,6 +230,14 @@
     font-style: italic;
     border-top: 1px dashed black;
 }
+
+.audio_container {
+    column-gap: 20px;
+    columns: 2;
+    column-fill: auto;
+}
+
+
 
 .beat_section_desc {
     text-align: left;
