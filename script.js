@@ -157,6 +157,7 @@ const o2 = document.getElementById('02');
 const o4 = document.getElementById('04');
 const o5 = document.getElementById('05');
 const o7 = document.getElementById('07');
+const o8 = document.getElementById('08');
 const o12 = document.getElementById('12');
 
 
@@ -248,7 +249,24 @@ o7.addEventListener("play", function(event) {
 
 o7.addEventListener("pause", function(event) {
   reset(128, 206, 255);
+});
 
+o8.addEventListener("play", function(event) {
+  update_color = true;
+  color.brightening = false;
+  color.update_r = false;
+  color.update_g = true;
+  color.update_b = false;
+  color.min = 180;
+  color.max = 255;
+  color.delta = 3;
+
+  color.set_rgb(128, 206, 255);
+  color.set_background_color("rgb(76, 84, 89)");
+});
+
+o8.addEventListener("pause", function(event) {
+  reset(76, 84, 89);
 });
 
 o12.addEventListener("play", function(event) {
