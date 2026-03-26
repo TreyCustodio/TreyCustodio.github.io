@@ -227,7 +227,7 @@
     padding-bottom: 10px;
     font-size: 18pt;
     font-family: 'Times New Roman';
-    border-top: 2px dashed black;
+    /* border-top: 2px dashed black; */
 }
 
 .audio_container {
@@ -256,6 +256,7 @@
 
 .beat_divider{
     border-top: 1px dashed black;
+    margin-right: 3%
 
 }
 
