@@ -221,20 +221,20 @@
 
 
 .beat_section {
-    display: block;
+    display: flow-root;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
     font-size: 18pt;
     font-family: 'Times New Roman';
-    font-style: italic;
-    border-top: 1px dashed black;
+    border-top: 2px dashed black;
 }
 
 .audio_container {
     column-gap: 20px;
     columns: 2;
     column-fill: auto;
+    break-after: column;
 }
 
 
@@ -252,9 +252,12 @@
     display: block;
     padding-top: 16px;
     padding-bottom: 20px
-
 }
 
+.beat_divider{
+    border-top: 1px dashed black;
+
+}
 
 
 /* Specifications for a game section title */

@@ -149,17 +149,53 @@ const socials_section = document.getElementById('socials_page');
 
 const to_beat = document.getElementById('to_beat');
 const to_socials = document.getElementById('to_socials');
+const to_earth = document.getElementById('to_earth');
+
 
 const color = new Animated(beat_container, 64, 60);
 // const audio = document.querySelector('audio');
 
+const o1 = document.getElementById('01');
 const o2 = document.getElementById('02');
+const o3 = document.getElementById('03');
 const o4 = document.getElementById('04');
 const o5 = document.getElementById('05');
+// const o6 = document.getElementById('06');
 const o7 = document.getElementById('07');
 const o8 = document.getElementById('08');
-const o12 = document.getElementById('12');
+const o9 = document.getElementById('09');
 
+const o10 = document.getElementById('10');
+const o11 = document.getElementById('11');
+const o12 = document.getElementById('12');
+const o13 = document.getElementById('13');
+const o14 = document.getElementById('14');
+// const o15 = document.getElementById('15');
+const o16 = document.getElementById('16');
+const o17 = document.getElementById('17');
+// const o18 = document.getElementById('18');
+
+
+const tracks = [
+  o1,
+  o2,
+  o3,
+  o4,
+  o5,
+  // o6,
+  o7,
+  o8,
+  o9,
+  o10,
+  o11,
+  o12,
+  o13,
+  o14,
+  // o15,
+  o16, 
+  o17,
+  // o18
+]
 
 
 
@@ -176,9 +212,17 @@ to_socials.addEventListener("click", function(event) {
   scroll_to(socials_section);
 });
 
+to_earth.addEventListener("click", function(event) {
+  scroll_to(document.getElementById('revival'));
+});
+
 /**
  * Audio event listeners
  */
+// for (let i = 0; i < tracks.length(); i++) {
+//   tracks[i]
+// }
+
 o2.addEventListener("play", function(event) {
   update_color = true;
   color.brightening = false;
@@ -251,23 +295,23 @@ o7.addEventListener("pause", function(event) {
   reset(128, 206, 255);
 });
 
-o8.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = false;
-  color.update_g = true;
-  color.update_b = false;
-  color.min = 180;
-  color.max = 255;
-  color.delta = 3;
+// o8.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = false;
+//   color.update_g = true;
+//   color.update_b = false;
+//   color.min = 180;
+//   color.max = 255;
+//   color.delta = 3;
 
-  color.set_rgb(128, 206, 255);
-  color.set_background_color("rgb(76, 84, 89)");
-});
+//   color.set_rgb(128, 206, 255);
+//   color.set_background_color("rgb(76, 84, 89)");
+// });
 
-o8.addEventListener("pause", function(event) {
-  reset(76, 84, 89);
-});
+// o8.addEventListener("pause", function(event) {
+//   reset(76, 84, 89);
+// });
 
 o12.addEventListener("play", function(event) {
   update_color = true;
