@@ -240,7 +240,7 @@
 
 
 .beat_section_desc {
-    text-align: left;
+    align-self: center;
     display: block;
     font-size: 12pt;
     font-family: 'Times New Roman';
