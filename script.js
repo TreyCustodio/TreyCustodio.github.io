@@ -150,6 +150,8 @@ const socials_section = document.getElementById('socials_page');
 const to_beat = document.getElementById('to_beat');
 const to_socials = document.getElementById('to_socials');
 const to_earth = document.getElementById('to_earth');
+const to_over = document.getElementById('to_over');
+
 
 
 const color = new Animated(beat_container, 64, 60);
@@ -214,6 +216,10 @@ to_socials.addEventListener("click", function(event) {
 
 to_earth.addEventListener("click", function(event) {
   scroll_to(document.getElementById('revival'));
+});
+
+to_over.addEventListener("click", function(event) {
+  scroll_to(document.getElementById('over'));
 });
 
 /**

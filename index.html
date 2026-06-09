@@ -215,11 +215,18 @@
                                  Additionally, as the player moves faster, the drums get louder. 
                               </li>
 
-                              <br> Check out my favorite track: <text class = "page_links" style = "color: rgb(118, 113, 71)" id="to_earth">16 - Earth's Revival</text>
+                              <br> Check out my favorite tracks: <text class = "page_links" style = "color: rgb(35, 88, 121)" id="to_over">08 - Overground</text>
+                              and <text class = "page_links" style = "color: rgb(118, 113, 71)" id="to_earth">16 - Earth's Revival</text>
                            </ul>
                         </p>
                      </div>
-                     
+                  <div class="beat_divider"></div>
+
+
+                  <!--  The Introduction  -->
+                  <br>
+                  <text style="display: block; text-align: center;">The Introduction</text> 
+                  <br>
                   <div class="beat_divider"></div>
 
                         <!--  (1) -->
@@ -283,8 +290,17 @@
                      </div>
                      
                      <div class="beat_divider"></div>
-                     <div class = "beat_section">
-                        <div class = "audio_container">
+
+
+
+
+                     <!--  Area Themes -->
+                     <br>
+                     <text style="display: block; text-align: center;">Area Themes</text> 
+                     <br>
+                     <div class="beat_divider"></div>
+
+
 
                         <!-- (04) Middleground-->
                         <div class = "beat">
@@ -298,10 +314,10 @@
                               </text>
 
                            </div>
-                           <!-- <audio controls id = "04">
-                              <source src="beats/AMTR/04_full.wav" type="audio/wav">
+                           <audio controls id = "04">
+                              <source src="beats/AMTR/04_Middleground.mp3" type="audio/wav">
                               Your browser does not support the audio element.
-                           </audio> -->
+                           </audio>
                            
                         </div>
 
@@ -375,20 +391,22 @@
                         
 
                         <!-- (08) Overground -->
-                        <div class = "beat">
+                        <div class = "beat" id = "over">
                            <div class = "beat_title">
                               <text style = "color: rgb(162, 195, 215)">
                               08 - Overground<br>(Fortress Entrance)
                               </text>
                               
+                              <br>
                               <text style = "color: black; font-size: 11pt; text-shadow: none;">
+                                 Ethereal introduction to a floating stronghold hidden in the clouds.
                               </text>
                            </div>
 
-                           <!-- <audio controls loop id = "08">
-                              <source src="beats/AMTR/08_full.wav" type="audio/wav">
+                           <audio controls loop id = "08">
+                              <source src="beats/AMTR/08_Overground.mp3" type="audio/wav">
                               Your browser does not support the audio element.
-                           </audio> -->
+                           </audio>
                         </div>
                         
                         
@@ -398,8 +416,9 @@
                               <text style = "color: rgb(171, 223, 195)">
                               09 - Overground<br>(Fortress Depths)
                               </text>
-                              
+                              <br>
                               <text style = "color: black; font-size: 11pt; text-shadow: none;">
+                              Final steps through the clouds.
                               </text>
                            </div>
 
@@ -414,9 +433,18 @@
                   
                   <div class="beat_divider"></div>
 
+                  
+
+
+                  
                   <div class="beat_section">
+                  <text style="display: block; text-align: center;">Scripted Battles and Events</text> 
+                  <br>
+                  <div class="beat_divider"></div>
+
                      <div class="audio_container">
                         
+
                         <!-- (10) Silent Dreams-->
                         <div class = "beat">
                            <div class = "beat_title">
@@ -520,7 +548,7 @@
                               </text>
 
                               <text style = "color: black; font-size: 11pt; text-shadow: none;">
-                              <br>Finding your way back.<br>
+                              <br>Continue?<br>
                               </text>
                            </div>
 
@@ -536,6 +564,10 @@
                   <div class="beat_divider"></div>
 
                   <div class = "beat_section">
+                     <text style="display: block; text-align: center;">The Final March</text> 
+                     <br>
+                     <div class="beat_divider"></div>
+
                         <!-- (16) Earth's Revival -->
                         <div class = "beat" id="revival">
                            <div class = "beat_title">
@@ -544,18 +576,18 @@
                               </text>
 
                               <text style = "color: black; font-size: 11pt; text-shadow: none;">
-                              <br>This track encourages you to reflect on your actions as you approach the final enemy.<br>
+                              <br>Reflect on your mission as you approach the final enemy.<br>
                               </text>
                            </div>
 
-                           <audio controls loop id = "16">
+                           <audio controls loop id = "revival">
                               <source src="beats/AMTR/16_full.wav" type="audio/wav">
                               Your browser does not support the audio element.
                            </audio>
                         </div>
 
                         <!-- (17) Human Extinction (Final Boss Theme) -->
-                        <div class = "beat" id="revival">
+                        <div class = "beat" id="17">
                            <div class = "beat_title">
                               <text style = "color: rgb(255, 59, 102)">
                               17 - Human Extinction<br>(Temporary Final Boss Theme)
