@@ -229,77 +229,77 @@ to_over.addEventListener("click", function(event) {
 //   tracks[i]
 // }
 
-o2.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = false;
-  color.update_g = false;
-  color.update_b = true;
-  color.min = 127;
-  color.max = 147;
-  color.delta = 2;
+// o2.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = false;
+//   color.update_g = false;
+//   color.update_b = true;
+//   color.min = 127;
+//   color.max = 147;
+//   color.delta = 2;
 
-  color.set_rgb(216, 112, 147);
-  color.set_background_color("rgb(216,112,147)");
-});
+//   color.set_rgb(216, 112, 147);
+//   color.set_background_color("rgb(216,112,147)");
+// });
 
-o2.addEventListener("pause", function(event) {
-  reset(216, 112, 147);
-});
+// o2.addEventListener("pause", function(event) {
+//   reset(216, 112, 147);
+// });
 
-o4.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = false;
-  color.update_g = true;
-  color.update_b = false;
-  color.min = 180;
-  color.max = 255;
-  color.delta = 6;
+// o4.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = false;
+//   color.update_g = true;
+//   color.update_b = false;
+//   color.min = 180;
+//   color.max = 255;
+//   color.delta = 6;
 
-  color.set_rgb(173, 255, 47);
-  color.set_background_color("rgb(173, 255, 47)");
-});
+//   color.set_rgb(173, 255, 47);
+//   color.set_background_color("rgb(173, 255, 47)");
+// });
 
-o4.addEventListener("pause", function(event) {
-  reset(173, 255, 47);
-});
+// o4.addEventListener("pause", function(event) {
+//   reset(173, 255, 47);
+// });
 
-o5.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = false;
-  color.update_g = true;
-  color.update_b = false;
-  color.min = 180;
-  color.max = 255;
-  color.delta = 6;
+// o5.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = false;
+//   color.update_g = true;
+//   color.update_b = false;
+//   color.min = 180;
+//   color.max = 255;
+//   color.delta = 6;
 
-  color.set_rgb(0, 204, 2);
-  color.set_background_color("rgb(0, 204, 2)");
-});
+//   color.set_rgb(0, 204, 2);
+//   color.set_background_color("rgb(0, 204, 2)");
+// });
 
-o5.addEventListener("pause", function(event) {
-  reset(0, 204, 2);
-});
+// o5.addEventListener("pause", function(event) {
+//   reset(0, 204, 2);
+// });
 
-o7.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = false;
-  color.update_g = true;
-  color.update_b = false;
-  color.min = 180;
-  color.max = 255;
-  color.delta = 3;
+// o7.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = false;
+//   color.update_g = true;
+//   color.update_b = false;
+//   color.min = 180;
+//   color.max = 255;
+//   color.delta = 3;
 
-  color.set_rgb(128, 206, 255);
-  color.set_background_color("rgb(128, 206, 255)");
-});
+//   color.set_rgb(128, 206, 255);
+//   color.set_background_color("rgb(128, 206, 255)");
+// });
 
-o7.addEventListener("pause", function(event) {
-  reset(128, 206, 255);
-});
+// o7.addEventListener("pause", function(event) {
+//   reset(128, 206, 255);
+// });
 
 // o8.addEventListener("play", function(event) {
 //   update_color = true;
@@ -319,23 +319,23 @@ o7.addEventListener("pause", function(event) {
 //   reset(76, 84, 89);
 // });
 
-o12.addEventListener("play", function(event) {
-  update_color = true;
-  color.brightening = false;
-  color.update_r = true;
-  color.update_b = false;
-  color.update_g = false;
-  color.min = 180;
-  color.max = 255;
-  color.delta = 6;
+// o12.addEventListener("play", function(event) {
+//   update_color = true;
+//   color.brightening = false;
+//   color.update_r = true;
+//   color.update_b = false;
+//   color.update_g = false;
+//   color.min = 180;
+//   color.max = 255;
+//   color.delta = 6;
 
-  color.set_rgb(215, 0, 0);
-  color.set_background_color("rgb(215, 0, 0)");
-});
+//   color.set_rgb(215, 0, 0);
+//   color.set_background_color("rgb(215, 0, 0)");
+// });
 
-o12.addEventListener("pause", function(event) {
-  reset(210, 0, 0);
-});
+// o12.addEventListener("pause", function(event) {
+//   reset(210, 0, 0);
+// });
 
 function reset(r, g, b) {
   update_color = false;
@@ -349,6 +349,11 @@ function reset(r, g, b) {
   rgb_string = "rgb(" + r + ", " + g + ", " + b + ")";
   color.set_background_color(rgb_string);
 }
+
+
+
+
+
 
 /**
  * Scroll to the desired section
